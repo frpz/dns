@@ -11,12 +11,10 @@ Package.describe({
 });
 
 Npm.depends({
-  //"net-snmp": "1.1.14"
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.1');
-  //api.use('ecmascript');
   api.addFiles('dns.js', ["server"]);
   api.export('dns');
 });
