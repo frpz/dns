@@ -1,0 +1,1 @@
+dns = Npm.require("dns");
